@@ -8,4 +8,4 @@ You should NOT try to redefine any of the above variables.
 
 // Write your code below this line!
 
-const newID = Math.Random;
+const newID = 100000000000 + oldID;
