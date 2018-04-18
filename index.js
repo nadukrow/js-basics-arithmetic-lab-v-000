@@ -16,6 +16,6 @@ const randomNumber = Math.random() + 10;
 
 const randomInteger = Math.floor(randomNumber);
 
-const validCheck = Math.isInteger(randomInteger);
+// const validCheck = Math.isInteger(randomInteger);
 
 const randomUserID = randomInteger + 1000000000;
