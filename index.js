@@ -16,4 +16,4 @@ const randomNumber = Math.random() + 10;
 
 const randomInteger = Math.floor(randomNumber);
 
-const randomUserID = Math.isInteger(randomInteger) + 1000000000;
+const randomUserID = randomInteger + 1000000000;
