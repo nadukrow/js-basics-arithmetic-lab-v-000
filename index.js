@@ -18,4 +18,4 @@ const randomInteger = Math.floor(randomNumber);
 
 const validCheck = Math.isInteger(randomInteger);
 
-const randomUserID = validCheck + 1000000000;
+const randomUserID = randomInteger + 1000000000;
